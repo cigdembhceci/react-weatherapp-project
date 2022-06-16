@@ -1,0 +1,14 @@
+.weather .temperature {
+  font-weight: bold;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 64px;
+  float: left;
+}
+.weather .unit {
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  position: relative;
+  top: 4px;
+}
