@@ -13,7 +13,7 @@ export default function WeatherData(props) {
         <li className="text-capitalize"> {props.data.desc}</li>
       </ul>
       <div className="row mt-3">
-        <div className="col-6">
+        <div className="col-7">
           <div className="clearfix">
             <img
               src={props.data.iconUrl}
@@ -25,7 +25,7 @@ export default function WeatherData(props) {
             </div>
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-5">
           <ul>
             <li> Humidity: {props.data.humidity}%</li>
             <li>Wind:{props.data.wind} km/h</li>

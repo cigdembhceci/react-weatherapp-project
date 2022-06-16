@@ -1,11 +1,19 @@
 .WeatherForecast {
   text-align: center;
+  font-family: Google Sans, Roboto, arial, sans-serif;
+  padding: 10px;
+}
+.WeatherForecast .col {
+  text-align: center;
+  border: 1px dashed #eee5e5;
+  padding: 10px;
+  border-radius: 5px;
 }
 .forecastTemp-min {
   opacity: 0.6;
   margin-left: 5px;
 }
-.WeatherForecast img {
+.WeatherForecast .img {
   margin: 0 auto;
   text-align: center;
   align-items: center;
